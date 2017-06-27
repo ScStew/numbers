@@ -1,14 +1,4 @@
-def num1()
-	12 + 88
+def add(num1, num2)
+	puts num1 + num2
 end
-
-def num2()
-	13 + 67
-end
-
-def answer
-num1 + num2
-end
-
-p answer
-
+add(5,6)
